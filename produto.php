@@ -2,7 +2,7 @@
 <?php require_once('rdd/head.php');
 require_once('rdd/connect.php');
 ?>
-<body style="background:#063E61;color:#ffffff;justify-content:center;">
+<body style="background: url('img/cubes.png') fixed 200px,#c4d6ee;color:#333;justify-content:center;">
     <style>
         @media only screen and (max-width: 959px){
             .menu-cover{
