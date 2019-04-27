@@ -1,4 +1,5 @@
 <head>
+    <meta charset="utf-8">
     <title>Administração - Mar&Cia</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="Sistema de postagem simplificado por JumperL">
