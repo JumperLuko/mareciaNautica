@@ -1,0 +1,186 @@
+/* --- --- HOME --- --- */
+.bannerProd{
+    height:100vh;
+    background-color:#011c2e;
+    background-image: url("../img/background-coral.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* background-size:100%; */
+    box-shadow: 0px 10px 24px 0px #000;
+    overflow:hidden;
+    /* grid-template-columns: 12% 12% 12% 12% 12%; */
+    /* grid-template-columns: auto auto auto auto auto; */
+}.bannerProd img{
+    height: 100%;
+    object-fit: contain;
+}
+.bannerProd > div{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 30vh 30vh 30vh 30vh 30vh;
+    grid-template-rows:60%;
+}.bannerProd > div > div{
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+@keyframes twoVideos {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    51% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.titleMarecia{
+    /* min-height: 60vh; */
+    height: 600px;
+    /* padding: 50px; */
+}
+@media only screen and (min-width: 768px){
+    .titleMarecia{
+        background: url('../uploads/capas/big/CmFl-frente-mc.png') fixed no-repeat -50% center,url('../uploads/capas/big/II-p_frente.png') fixed no-repeat 150% center;
+        background-size: 50%;
+    }
+}
+
+.certificacao{
+    background-color:#063e61;
+    background-image: url('../img/onda.svg.png');
+    /*background-size:99px;*/
+    color:#ffffff;
+    padding:30px 5% 30px 5%;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+
+@-webkit-keyframes zoomView {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+@keyframes zoomView {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+.cubes{
+    /* background-color: gray; */
+    /* background-color: #985E0055; */
+    object-fit: contain;
+    height: 300px;
+    /* border: 3px solid black; */
+    overflow: hidden;
+}
+.cubes > a{
+    width: 100%;
+    height: 100%;
+    background: center top no-repeat;
+    background-size: auto 120%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration:none;
+}.cubes:hover > a{
+    -webkit-animation-name:zoomView;
+    animation-name:zoomView;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+.cubes > a > div{
+    color: #ffffff;
+    background-color: #00000099;
+    margin: 0 0 20% 0;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.sobre{
+    background-color: #011C2E;
+    color: #ffffff;
+}
+
+#galery{
+    max-height: 80%;
+    overflow-y: scroll;
+}
+
+/*set a border on the images to prevent shifting*/
+#galery img, #zoom_mw{
+    background-color: #ffffff;
+}
+#galery > a{
+    border:2px solid white;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#galery > a > img{
+    height: 100%;
+    object-fit: contain;
+}#galery :hover > a{
+    -webkit-animation-name:zoomView;
+    animation-name:zoomView;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+
+/*Change the colour*/
+.active-zoom{
+    border:2px solid #333 !important;
+}
+
+.colorCube div{
+    height:100px;width:100px;
+}
+.ficha a{
+    color: #ffffff;
+    padding: 20px;
+    /* width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}.ficha:hover a{
+    transition: all 0.3s linear;
+    color: #000000;
+    background-color: #ffffff;
+}
