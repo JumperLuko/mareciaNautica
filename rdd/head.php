@@ -28,4 +28,3 @@
     <script>
         new WOW().init();
     </script>
-</head>

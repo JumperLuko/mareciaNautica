@@ -1,7 +1,9 @@
 <html lang="pt-br">
-<?php require_once('rdd/head.php');
-require_once('rdd/connect.php');
+<?php require_once('rdd/connect.php');
+require_once('rdd/head.php');
 ?>
+    <link rel="stylesheet" type="text/css" href="css/galery.css">
+</head>
 <body style="background: url('img/cubes.png') fixed 200px,#c4d6ee;color:#333;justify-content:center;">
     <style>
         @media only screen and (max-width: 959px){
@@ -27,7 +29,12 @@ require_once('rdd/connect.php');
         echo '</div>';
     }
     ?>
+    <script src="js/zooming.min.js"></script>
     <script>
+        new Zooming({scaleExtra:30,scrollThreshold:100}).listen('img');
+    </script>
+
+    <!-- <script>
     $("#zoom_mw").elevateZoom({gallery:'galery', galleryActiveClass: 'active-zoom', scrollZoom : true, tint:true, tintColour:'#000', tintOpacity:0.0, cursor: 'crosshair', easing:true,zoomWindowWidth:500, zoomWindowHeight:500,zoomWindowPosition: 1, zoomWindowFadeIn: 500, zoomWindowFadeOut: 500,lensFadeIn: true, lensFadeOut: true, zoomWindowOffetx:1, responsive: true});
     // $("#zoom_mw").elevateZoom({gallery:'galery', galleryActiveClass: 'active',zoomWindowWidth:0, zoomWindowHeight:0, galleryActiveClass: "active-galery"});
     //pass the images to Fancybox
@@ -36,7 +43,8 @@ require_once('rdd/connect.php');
 		$.fancybox(ez.getGalleryList());
 	  return false;
 	});
-    </script>
+    </script> -->
+
     <footer class="col-12 around wrap contato" id="contato" style="overflow: hidden;background: #000000;">
         <div class="col-12 centerW centerText h1" style="margin:40px 4vw 0 4vw;">Contato</div>
         <div class="centerW centerText h3" style="margin: 40px 1vw 40px 1vw;"><div class="col-12 center"><span><i class="fa fa-phone"></i></span></div><span>(47) 3026-5141</span></div>

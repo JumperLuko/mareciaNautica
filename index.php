@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php require_once('rdd/head.php'); ?>
+</head>
 <body style="overflow-x:hidden;">
     <script>
     function menu() {

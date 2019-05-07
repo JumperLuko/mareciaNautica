@@ -133,37 +133,6 @@
     color: #ffffff;
 }
 
-#galery{
-    max-height: 80%;
-    overflow-y: scroll;
-}
-
-/*set a border on the images to prevent shifting*/
-#galery img, #zoom_mw{
-    background-color: #ffffff;
-}
-#galery > a{
-    border:2px solid white;
-    height: 100px;
-    width: 100px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-#galery > a > img{
-    height: 100%;
-    object-fit: contain;
-}#galery :hover > a{
-    -webkit-animation-name:zoomView;
-    animation-name:zoomView;
-    -webkit-animation-duration:1s;
-    animation-duration:1s;
-    -webkit-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-
 /*Change the colour*/
 .active-zoom{
     border:2px solid #333 !important;
