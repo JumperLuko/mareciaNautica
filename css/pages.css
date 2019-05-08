@@ -42,9 +42,9 @@
 }
 
 .titleMarecia{
-    /* min-height: 60vh; */
-    height: 600px;
-    /* padding: 50px; */
+  height: 600px;
+}.titleMarecia > div{
+  z-index: -1;
 }
 @media only screen and (min-width: 768px){
     .titleMarecia{
@@ -131,6 +131,8 @@
 .sobre{
     background-color: #011C2E;
     color: #ffffff;
+}.sobre > div{
+  padding: 40px;
 }
 
 /*Change the colour*/

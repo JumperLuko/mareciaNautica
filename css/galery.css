@@ -1,4 +1,7 @@
 /*set a border on the images to prevent shifting*/
+.galery{
+    margin: 100px 4vw;
+}
 .galery > a{
     height: 100px;
     width: 100px;
@@ -9,7 +12,8 @@
     border:0.5px solid rgb(185, 185, 185);
 }
 .galery > a > img{
-    height: 100%;
+    height: calc(100% - 1px);
+    width: calc(100% - 1px);
     object-fit: contain;
     background-color: #ffffff;
     overflow: hidden;
