@@ -4,7 +4,7 @@ require_once('rdd/head.php');
 ?>
     <link rel="stylesheet" type="text/css" href="css/galery.css">
 </head>
-<body style="background: url('img/cubes.png') fixed 200px,#c4d6ee;color:#333;justify-content:center;">
+<body class="flex wrap center" style="background: linear-gradient(141deg, #0a4164 -30%, #c4d6ee 51%, #000000 150%);color:#333;justify-content:center;">
     <style>
         @media only screen and (max-width: 959px){
             .menu-cover{
@@ -29,7 +29,7 @@ require_once('rdd/head.php');
     ?>
     <script src="js/zooming.min.js"></script>
     <script>
-        new Zooming({scaleExtra:10,scrollThreshold:100}).listen('img');
+        new Zooming({scaleExtra:10}).listen('img');
     </script>
 
     <footer class="col-12 flex around wrap contato" id="contato" style="overflow: hidden;background: #000000;">

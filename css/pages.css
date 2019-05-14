@@ -144,7 +144,7 @@
     height:100px;width:100px;
 }
 .ficha a{
-    color: #ffffff;
+    color: #000000;
     padding: 20px;
     /* width: 100%;
     display: flex;
@@ -152,6 +152,6 @@
     flex-wrap: wrap; */
 }.ficha:hover a{
     transition: all 0.3s linear;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
 }

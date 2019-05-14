@@ -69,9 +69,9 @@
             if (scrollPos < 600+topHeader && scrollPos > topHeader){
                 paralaxItem.style.height = (600-(scrollPos-topHeader)) +"px";
                 // paralaxItem.style.opacity = 1 - ((scrollPos-topHeader)/1000);
-                paralaxItem.style.marginTop = scrollPos-topHeader-20 +"px";
+                paralaxItem.style.marginTop = scrollPos-topHeader+0 +"px";
             }else if(scrollPos < topHeader){
-                paralaxItem.style.marginTop= -20+"px";
+                paralaxItem.style.marginTop= +0+"px";
                 paralaxItem.style.height = 600+"px";
             }
         }
@@ -106,16 +106,16 @@
     <div class="col-12 certificacao flex center" id="qualidade" style="z-index:1;">
 		<div class="col-12 flex center">
 			<div class="col-8 col-m-9 flex items-center"><div>
-                <p class="h3 wow pulse" data-wow-delay="0.5s"><b>Empresa Certificada</b></p>
+                <p class="h3 wow fadeInUp" data-wow-delay="0.5s"><b>Empresa Certificada</b></p>
                 <p class="h5 wow fadeInUp" data-wow-delay="1s">Possuimos diversos modelos de coletes salva-vidas Homologados pela Marinha do Brasil e com certificação da <b>NBR ISO 9001:15.</b></p>
-                <p  class="h3 wow pulse" data-wow-delay="0.5s"><b>Política da Qualidade</b></p>
+                <p  class="h3 wow fadeInUp" data-wow-delay="0.5s"><b>Política da Qualidade</b></p>
                 <p  class="h5 wow fadeInUp" data-wow-delay="1s">Desenvolver, fabricar e comercializar equipamentos de salvatagem, atendendo as necessidades do cliente e requisitos regulamentares, gerando a melhoria do sistema de gestão da qualidade.</p>
-                <p class="h3 wow pulse" data-wow-delay="0.5s"><b>Escopo do SGQ</b></p>
+                <p class="h3 wow fadeInUp" data-wow-delay="0.5s"><b>Escopo do SGQ</b></p>
                 <p class="h5 wow fadeInUp" data-wow-delay="1s">Desenvolvimento, fabricação e comercialização de coletes salva vidas.</p>
 			</div></div>
 			<div class="col-4 col-m-3 col-b-3 col-g-2 startW centerV" style="align-content: space-around;">
-				<div style="padding:0px 40px 0 40px;width:100%;"><object class="col-s-12 col-b-11 wow rubberBand" type="image/svg+xml" data="img/ISO-9001(2015).svg"  style="visibility: visible; animation-delay: 0.5s; animation-name: rubberBand;"></object></div>
-				<div style="padding:0px 40px 0 40px;"><img class="col-s-12 col-b-11 wow rubberBand" data-wow-delay="0.5s" src="img/marinha.svg" alt="Marinha do Brasil"></div>
+				<div style="padding:0px 40px 0 40px;width:100%;" class="wow fadeInUp"><object class="col-s-12 col-b-11" type="image/svg+xml" data="img/ISO-9001(2015).svg"  style="visibility: visible; animation-delay: 0.5s; animation-name: rubberBand;"></object></div>
+				<div style="padding:0px 40px 0 40px;"><img class="col-s-12 col-b-11 wow fadeInUp" data-wow-delay="0.5s" src="img/marinha.svg" alt="Marinha do Brasil"></div>
 			</div>
 		</div>
     </div>
