@@ -134,24 +134,3 @@
 }.sobre > div{
   padding: 40px;
 }
-
-/*Change the colour*/
-.active-zoom{
-    border:2px solid #333 !important;
-}
-
-.colorCube div{
-    height:100px;width:100px;
-}
-.ficha a{
-    color: #000000;
-    padding: 20px;
-    /* width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
-}.ficha:hover a{
-    transition: all 0.3s linear;
-    color: #ffffff;
-    background-color: #000000;
-}

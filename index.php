@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<?php require_once('rdd/head.php'); ?>
+    <?php require_once('rdd/head.php'); ?>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body style="overflow-x:hidden;">
     <script>
@@ -15,8 +16,8 @@
     <button style="position:fixed;bottom:10px;left:10px;font-size: 20px;background: #011C2E;color:#fff;border:0;border-radius:20px;padding:10px;z-index:99;animation-name: lookatme; animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;" onclick="fechar()">Colete novo?!</button>
     <div id="myBtn" style="position: fixed;width: 100%;height:100%;background-color: #000000ee;top: 0;display: none;justify-content:center;align-content: center;z-index:99;overflow:auto;">
         <div style="background-color: #fff;width: 1000px;min-width: 350px;max-width: 100%;background-image: url('uploads/capas/kids-capa.png');background-position: right;background-repeat: no-repeat;text-shadow: 0px 0px 10px #fff;">
-        <button style="float:right;background:#fff;border:0;padding: 20px;font-size: 30px;" onclick="fechar()">X</button><h1 class="h3" style="background: #ffffffaa;padding: 20px;"><p>O mais novo xodó da Mar&Cia, o Auxiliar de flutuação <a href="http://www.marecianautica.com.br/produto.php?nome=Kids"><strong>Kids</strong></a>.</p><p>Super confortável e seguro.</p><p>Tamanhos: PP até <strong>20Kg</strong> e P até <strong>30Kg</strong>.</p><p>Nas cores: <strong><span style="color: #caca1a;">Amarelo</span>, <span style="color: #000058;">Azul</span>, <span style="color: #d28800;">Laranja</span>, <span style="color: #e0a4af;">Rosa</span> e <span style="color: #8a0000;">vermelho.</span></strong></span></p><p>Com as mais diversas estampas.</p></h1>
-    </div>
+            <button style="float:right;background:#fff;border:0;padding: 20px;font-size: 30px;" onclick="fechar()">X</button><h1 class="h3" style="background: #ffffffaa;padding: 20px;"><p>O mais novo xodó da Mar&Cia, o Auxiliar de flutuação <a href="http://www.marecianautica.com.br/produto.php?nome=Kids"><strong>Kids</strong></a>.</p><p>Super confortável e seguro.</p><p>Tamanhos: PP até <strong>20Kg</strong> e P até <strong>30Kg</strong>.</p><p>Nas cores: <strong><span style="color: #caca1a;">Amarelo</span>, <span style="color: #000058;">Azul</span>, <span style="color: #d28800;">Laranja</span>, <span style="color: #e0a4af;">Rosa</span> e <span style="color: #8a0000;">vermelho.</span></strong></span></p><p>Com as mais diversas estampas.</p></h1>
+        </div>
     </div>
     <style>
         #myBtn{
@@ -103,8 +104,8 @@
             <div style="font-size:22px;">Fabricação e Comercialização de Coletes Salva Vidas</div>
         </div>
     </div>
-    <div class="col-12 certificacao flex center" id="qualidade" style="z-index:1;">
-		<div class="col-12 flex center">
+    <div class="col-12 certificacao flex wrap center" id="qualidade" style="z-index:1;">
+		<div class="col-12 flex wrap center">
 			<div class="col-8 col-m-9 flex items-center"><div>
                 <p class="h3 wow fadeInUp" data-wow-delay="0.5s"><b>Empresa Certificada</b></p>
                 <p class="h5 wow fadeInUp" data-wow-delay="1s">Possuimos diversos modelos de coletes salva-vidas Homologados pela Marinha do Brasil e com certificação da <b>NBR ISO 9001:15.</b></p>
@@ -113,9 +114,9 @@
                 <p class="h3 wow fadeInUp" data-wow-delay="0.5s"><b>Escopo do SGQ</b></p>
                 <p class="h5 wow fadeInUp" data-wow-delay="1s">Desenvolvimento, fabricação e comercialização de coletes salva vidas.</p>
 			</div></div>
-			<div class="col-4 col-m-3 col-b-3 col-g-2 startW centerV" style="align-content: space-around;">
-				<div style="padding:0px 40px 0 40px;width:100%;" class="wow fadeInUp"><object class="col-s-12 col-b-11" type="image/svg+xml" data="img/ISO-9001(2015).svg"  style="visibility: visible; animation-delay: 0.5s; animation-name: rubberBand;"></object></div>
-				<div style="padding:0px 40px 0 40px;"><img class="col-s-12 col-b-11 wow fadeInUp" data-wow-delay="0.5s" src="img/marinha.svg" alt="Marinha do Brasil"></div>
+			<div class="col-4 col-m-3 col-b-3 col-g-2 flex wrap centerV" style="align-content: space-around;">
+				<div class="col--6 col-12" style="padding:0px 40px 0 40px;" class="wow fadeInUp"><object class="col-s-12 col-b-11" type="image/svg+xml" data="img/ISO-9001(2015).svg"  style="visibility: visible; animation-delay: 0.5s; animation-name: rubberBand;"></object></div>
+				<div class="col--6 col-12" style="padding:0px 40px 0 40px;"><img class="col-s-12 col-b-11 wow fadeInUp" data-wow-delay="0.5s" src="img/marinha.svg" alt="Marinha do Brasil"></div>
 			</div>
 		</div>
     </div>

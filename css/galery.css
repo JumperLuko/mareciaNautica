@@ -16,33 +16,26 @@
     overflow: hidden;
 }
 
-/*Old zoom image*/
-#galery{
-    max-height: 80%;
-    overflow-y: scroll;
+.colorCube div{
+    height:100px;
+    width:100px;
+    display:flex;
+    text-align: center;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    color:#000;
 }
 
-#galery img, #zoom_mw{
-    background-color: #ffffff;
-}
-#galery > a{
-    border:2px solid white;
-    height: 100px;
-    width: 100px;
-    overflow: hidden;
+.ficha a{
+    color: #000000;
+    padding: 20px;
+    /* width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: white;
-}
-#galery > a > img{
-    height: 100%;
-    object-fit: contain;
-}#galery :hover > a{
-    -webkit-animation-name:zoomView;
-    animation-name:zoomView;
-    -webkit-animation-duration:1s;
-    animation-duration:1s;
-    -webkit-animation-fill-mode:both;
-    animation-fill-mode:both;
+    flex-wrap: wrap; */
+}.ficha:hover a{
+    transition: all 0.3s linear;
+    color: #ffffff;
+    background-color: #000000;
 }

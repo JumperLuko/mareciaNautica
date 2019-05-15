@@ -1,7 +1,8 @@
 <html lang="pt-br">
-<?php require_once('rdd/connect.php');
-require_once('rdd/head.php');
-?>
+    <?php 
+        require_once('rdd/connect.php');
+        require_once('rdd/head.php');
+    ?>
     <link rel="stylesheet" type="text/css" href="css/galery.css">
 </head>
 <body class="flex wrap center" style="background: linear-gradient(141deg, #0a4164 -30%, #c4d6ee 51%, #000000 150%);color:#333;justify-content:center;">
