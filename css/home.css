@@ -48,7 +48,7 @@
 }
 @media only screen and (min-width: 768px){
     .titleMarecia{
-        background: url('../uploads/capas/big/CmFl-frente-mc.png') fixed no-repeat -50% center,url('../uploads/capas/big/II-p_frente.png') fixed no-repeat 150% center;
+        background: url('http://www.marecianautica.com.br/uploads/capas/big/CmFl-frente-mc.png') fixed no-repeat -50% center,url('http://www.marecianautica.com.br/uploads/capas/big/III-canga-P.png') fixed no-repeat 150% center;
         background-size: 50%;
     }
 }
