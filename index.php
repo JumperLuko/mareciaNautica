@@ -91,16 +91,16 @@
     </header>
     <div class="bannerProd col-12 center" style="z-index:0;">
         <div class="center items-center">
-            <div class="wow bounceInLeft" style="animation-delay: 1.5s;"><img src="https://www.marecianautica.com.br/uploads/capas/classe4-plat.png" alt="Classe 4 Plataforma"></div>
-            <div class="wow bounceInLeft" style="animation-delay: 1.0s;z-index:1;"><img src="https://www.marecianautica.com.br/uploads/capas/classe5-esp.png" alt="Classe 5 Esportivo"></div>
-            <div class="wow bounceInUp" style="animation-delay: 0.5s;z-index:2;"><img src="https://www.marecianautica.com.br/uploads/capas/classe2-canga.png" alt="Classe 2 Canga"></div>
-            <div class="wow bounceInRight" style="animation-delay: 1.0s;z-index:1;"><img src="https://www.marecianautica.com.br/uploads/capas/CmFl.png" alt="Camisa Flutuadora"></div>
-            <div class="wow bounceInRight" style="animation-delay: 1.5s;"><img src="https://www.marecianautica.com.br/uploads/capas/CmPr.png" alt="Camisa Protetora"></div>
+            <div class="wow bounceInLeft" style="animation-delay: 1.5s;"><img src="http://www.marecianautica.com.br/uploads/capas/classe4-plat.png" alt="Classe 4 Plataforma"></div>
+            <div class="wow bounceInLeft" style="animation-delay: 1.0s;z-index:1;"><img src="http://www.marecianautica.com.br/uploads/capas/classe5-esp.png" alt="Classe 5 Esportivo"></div>
+            <div class="wow bounceInUp" style="animation-delay: 0.5s;z-index:2;"><img src="http://www.marecianautica.com.br/uploads/capas/classe2-canga.png" alt="Classe 2 Canga"></div>
+            <div class="wow bounceInRight" style="animation-delay: 1.0s;z-index:1;"><img src="http://www.marecianautica.com.br/uploads/capas/CmFl.png" alt="Camisa Flutuadora"></div>
+            <div class="wow bounceInRight" style="animation-delay: 1.5s;"><img src="http://www.marecianautica.com.br/uploads/capas/CmPr.png" alt="Camisa Protetora"></div>
         </div>
     </div>
     <div class="col-12 flex center centerText titleMarecia">
         <div class="wow swing" data-wow-duration="1s" data-wow-delay="1s">
-            <img src="https://www.marecianautica.com.br/img/marecia-colorido2.svg" style="max-height: 150px;max-width: 100%;">
+            <img src="http://www.marecianautica.com.br/img/marecia-colorido2.svg" style="max-height: 150px;max-width: 100%;">
             <div style="font-size:22px;">Fabricação e Comercialização de Coletes Salva Vidas</div>
         </div>
     </div>

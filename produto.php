@@ -4,8 +4,6 @@
         require_once('rdd/head.php');
     ?>
     <link rel="stylesheet" type="text/css" href="css/galery.css">
-</head>
-<body class="flex wrap center" style="background: linear-gradient(141deg, #0a4164 -30%, #c4d6ee 51%, #000000 150%);color:#333;justify-content:center;">
     <style>
         @media only screen and (max-width: 959px){
             .menu-cover{
@@ -13,6 +11,8 @@
             }
         }
     </style>
+</head>
+<body class="flex wrap center" style="background: linear-gradient(141deg, #0a4164 -30%, #c4d6ee 51%, #c4d6ee 150%);color:#333;justify-content:center;">
     <header class="col-12 flex" id="menu" style="display: flex;z-index:0;background-color: #011C2E;position: unset;">
     	<a href=".#produtos" class="col-12 wow bounceInLeft center" style="height: 100px;"><span style="font-size: 50px;"><i class="fas fa-angle-double-left"></i>Voltar</span></a>
     </header>
