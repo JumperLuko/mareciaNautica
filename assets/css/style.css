@@ -195,3 +195,7 @@ footer.contato > div > div > span {
 [class*="fa"] {
   padding: 0 10px 0 10px;
 }
+
+footer.acesse > div a {
+  padding: 40px;
+}

@@ -1,0 +1,194 @@
+/* --- --- HOME --- --- */
+.bannerProd{
+    height:100vh;
+    background-color:#011c2e;
+    background-image: url("../img/background-coral.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* background-size:100%; */
+    box-shadow: 0px 10px 24px 0px #000;
+    overflow:hidden;
+    /* grid-template-columns: 12% 12% 12% 12% 12%; */
+    /* grid-template-columns: auto auto auto auto auto; */
+}.bannerProd img{
+    height: 100%;
+    object-fit: contain;
+}
+.bannerProd > div{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-template-columns: 30vh 30vh 30vh 30vh 30vh;
+    grid-template-rows:60%;
+}.bannerProd > div > div{
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+@keyframes twoVideos {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    51% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.titleMarecia{
+  height: 600px;
+}.titleMarecia > div{
+  z-index: -1;
+}
+@media only screen and (min-width: 768px){
+    .titleMarecia{
+        background: url('http://www.marecianautica.com.br/uploads/capas/big/CmFl-frente-mc.png') fixed no-repeat -50% center,url('http://www.marecianautica.com.br/uploads/capas/big/III-canga-P.png') fixed no-repeat 150% center;
+        background-size: 50%;
+    }
+}
+
+.certificacao{
+    background-color:#063e61;
+    background-image: url('../img/onda.svg.png');
+    /*background-size:99px;*/
+    color:#ffffff;
+    padding:30px 5% 30px 5%;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+
+@-webkit-keyframes zoomView {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+@keyframes zoomView {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+.cubes{
+    /* background-color: gray; */
+    /* background-color: #985E0055; */
+    object-fit: contain;
+    height: 300px;
+    /* border: 3px solid black; */
+    overflow: hidden;
+}
+.cubes > a{
+    width: 100%;
+    height: 100%;
+    background: center top no-repeat;
+    background-size: auto 120%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration:none;
+}.cubes:hover > a{
+    -webkit-animation-name:zoomView;
+    animation-name:zoomView;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+.cubes > a > div{
+  color: #ffffff;
+  background-color: #00000099;
+  margin: 0 0 20% 0;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.sobre{
+  background-color: #011C2E;
+  color: #ffffff;
+  > div{
+      padding: 40px;
+    }
+  }
+
+a.fixedButtom{
+  position:fixed;
+  bottom:10px;
+  left:10px;
+  font-size: 20px;
+  background: #009688;
+  color:#fff;
+  border:0;
+  border-radius: 100%;
+  padding:10px;
+  z-index:99;
+  animation-name: lookatme;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  >span{
+    display:none;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 22px;
+  }
+  &:hover{
+    width: 300px;
+    border-radius: 10px;
+    >span{
+      display: block;
+    }
+  }
+}
+
+#myBtn{
+  align-items: center;
+}
+@media only screen and (max-height: 580px) {
+#myBtn{
+  align-items: flex-start;
+}
+}
+@keyframes lookatme {
+0% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  transform: translatey(0px);
+}
+50% {
+  box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+  transform: translatey(-10px);
+}
+100% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  transform: translatey(0px);
+}
+}

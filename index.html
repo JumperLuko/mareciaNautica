@@ -6,7 +6,7 @@ layout: none
 <!DOCTYPE html>
 <html lang="pt-br">
     {% include head.html %}
-    <link rel="stylesheet" type="text/css" href="/assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/home.min.css">
 </head>
 <body style="overflow-x:hidden;">
     <script>
@@ -18,36 +18,15 @@ layout: none
         }
     }
     </script>
-    <!-- <button style="position:fixed;bottom:10px;left:10px;font-size: 20px;background: #011C2E;color:#fff;border:0;border-radius:20px;padding:10px;z-index:99;animation-name: lookatme; animation-duration: 4s;animation-iteration-count: infinite;animation-direction: alternate;" onclick="fechar()">Colete novo?!</button> -->
-    <div id="myBtn" style="position: fixed;width: 100%;height:100%;background-color: #000000ee;top: 0;display: none;justify-content:center;align-content: center;z-index:99;overflow:auto;">
+    <a class="fixedButtom flex center" href="https://api.whatsapp.com/send?phone=5547984790989&text=Ol%C3%A1,%20Estava%20visitando%20o%20site%20marecianautica.com.br.%20Est%C3%A1%20dispon%C3%ADvel?" target="_BLANK">
+        <img src="/assets/img/whatsapp.svg" style="width: 40px;height: 40px;" />
+        <span>+55 47 98479-0989</span>
+    </a>
+    <!-- <div id="myBtn" style="position: fixed;width: 100%;height:100%;background-color: #000000ee;top: 0;display: none;justify-content:center;align-content: center;z-index:99;overflow:auto;">
         <div style="background-color: #fff;width: 1000px;min-width: 350px;max-width: 100%;background-image: url('uploads/capas/kids-capa.png');background-position: right;background-repeat: no-repeat;text-shadow: 0px 0px 10px #fff;">
             <button style="float:right;background:#fff;border:0;padding: 20px;font-size: 30px;" onclick="fechar()">X</button><h1 class="h3" style="background: #ffffffaa;padding: 20px;"><p>O mais novo xodó da Mar&Cia, o Auxiliar de flutuação <a href="http://www.marecianautica.com.br/produto.php?nome=Kids"><strong>Kids</strong></a>.</p><p>Super confortável e seguro.</p><p>Tamanhos: PP até <strong>20Kg</strong> e P até <strong>30Kg</strong>.</p><p>Nas cores: <strong><span style="color: #caca1a;">Amarelo</span>, <span style="color: #000058;">Azul</span>, <span style="color: #d28800;">Laranja</span>, <span style="color: #e0a4af;">Rosa</span> e <span style="color: #8a0000;">vermelho.</span></strong></span></p><p>Com as mais diversas estampas.</p></h1>
         </div>
-    </div>
-    <style>
-        #myBtn{
-                align-items: center;
-            }
-        @media only screen and (max-height: 580px) {
-            #myBtn{
-                align-items: flex-start;
-            }
-        }
-        @keyframes lookatme {
-            0% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translatey(0px);
-            }
-            50% {
-                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-                transform: translatey(-10px);
-            }
-            100% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translatey(0px);
-            }
-        }
-    </style>
+    </div> -->
     <script>
       function fechar() {
         if (document.getElementById("myBtn").style.display == "flex"){
@@ -160,11 +139,17 @@ layout: none
     </div>
     {% include footer.html %}
     <iframe title="Mapa Santa Catarina" class="col-12" style="height:80vh;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6043987.8524484085!2d-54.00796800834868!3d-28.402730947671937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta+Catarina!5e0!3m2!1spt-BR!2sbr!4v1527217802060" width="100%" height="800px" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <footer class="links col-12" style="background-color:#000000;padding:40px;">
+    <footer class="links col-12 acesse" style="background-color:#000000;padding:40px;">
         <h1 class="col-12 centerText" style="color:#cccccc;margin: 0 0 40px 0;">Acesse também</h1>
-        <div class="col-12 flex centerV aroundH">
-        	<a href="https://www.facebook.com/MareCiacoletes/"><img src="/assets/img/facebook.svg" style="height: 45px;width: 231px;" alt="Facebook"></a>
-        	<a href="https://www.instagram.com/marecianautica/"><img src="/assets/img/instagram.svg" style="height: 55px;width: auto;" alt="Instagram"></a>
+        <div class="col-12 flex wrap centerV aroundH">
+            <div class="flex column center">
+                <a href="https://www.facebook.com/MareCiacoletes/"><img src="/assets/img/facebook.svg" style="height: 45px;width: 231px;" alt="Facebook"></a>
+                <a href="https://www.instagram.com/marecianautica/"><img src="/assets/img/instagram.svg" style="height: 55px;width: auto;" alt="Instagram"></a>
+            </div>
+            <div class="flex column center">
+                <a href="https://api.whatsapp.com/send?phone=5547984790989&text=Ol%C3%A1,%20Estava%20visitando%20o%20site%20marecianautica.com.br.%20Est%C3%A1%20dispon%C3%ADvel?"><img src="/assets/img/whatsapp.svg" style="height: 55px;width: auto;" alt="Whatsapp"></a>
+                <a href="https://t.me/Marecia_nautica"><img src="/assets/img/telegram.svg" style="height: 55px;width: auto;" alt="Telegram"></a>
+            </div>
         </div>
         </footer>
     <div style="background-color:#607890;text-decoration:none;color: #ffffff;font-weight: bold;padding: 14px;" class="col-12 center centerText h7"><span>Site desenvolvido por <a href="https://JumperLuko.com" style="color: #000000;"> JumperLuko </a>(Thiago Augusto). <a href="mailto:jumper.luko@gmail.com" style="color: #000000;">jumper.luko@gmail.com</a></span></div>
