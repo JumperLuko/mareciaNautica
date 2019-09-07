@@ -34,8 +34,8 @@ a{
     text-decoration: none;
 }
 
-/* --- --- HEADER --- --- */
-header{
+/* --- --- NAV --- --- */
+nav{
     font-weight: bold;
     /* background-color: #011C2E; */
     text-shadow:0 0 8px #000000dd;
@@ -80,16 +80,16 @@ header{
 
 
 @media only screen and (max-width: 959px) {
-    header{
+    nav{
         display: flex;
         background-color: #011C2E;
-    }header a{
+    }nav a{
         color:#ffffff;
-    }header a:hover{
+    }nav a:hover{
         text-shadow: 0px 0px 15px black;
         background-color: #ffffff20;
     }
-    header a > span{
+    nav a > span{
         text-shadow: 0px 0px 15px #163750;
     }
     .buttonMenu{
@@ -100,7 +100,7 @@ header{
     }
 }
 @media only screen and (min-width: 960px) {
-    header{
+    nav{
         display: flex;
         position: fixed;
         a{

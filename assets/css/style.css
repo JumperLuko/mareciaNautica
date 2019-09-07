@@ -45,19 +45,19 @@ a {
   text-decoration: none;
 }
 
-/* --- --- HEADER --- --- */
-header {
+/* --- --- NAV --- --- */
+nav {
   font-weight: bold;
   /* background-color: #011C2E; */
   text-shadow: 0 0 8px #000000dd;
   z-index: 10;
 }
 
-header > .pesquisa {
+nav > .pesquisa {
   padding: 10px 0 10px 0;
 }
 
-header > .pesquisa input[type="search"] {
+nav > .pesquisa input[type="search"] {
   width: 10%;
   height: 40px;
   color: #ffffff;
@@ -71,26 +71,26 @@ header > .pesquisa input[type="search"] {
   transition: width 0.4s ease-in-out;
 }
 
-header > .pesquisa input[type="search"]:focus {
+nav > .pesquisa input[type="search"]:focus {
   width: 100%;
 }
 
-header [class*="fa"] {
+nav [class*="fa"] {
   margin: 0 10px 0 0;
 }
 
-header a {
+nav a {
   text-decoration: none;
   height: 60px;
 }
 
-header a:hover {
+nav a:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-shadow: 0 0 8px #000000;
 }
 
-header a > span {
+nav a > span {
   font-size: 19px;
   height: 100%;
   display: -webkit-box;
@@ -105,20 +105,20 @@ header a > span {
 }
 
 @media only screen and (max-width: 959px) {
-  header {
+  nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background-color: #011C2E;
   }
-  header a {
+  nav a {
     color: #ffffff;
   }
-  header a:hover {
+  nav a:hover {
     text-shadow: 0px 0px 15px black;
     background-color: #ffffff20;
   }
-  header a > span {
+  nav a > span {
     text-shadow: 0px 0px 15px #163750;
   }
   .buttonMenu {
@@ -130,17 +130,17 @@ header a > span {
 }
 
 @media only screen and (min-width: 960px) {
-  header {
+  nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: fixed;
   }
-  header a {
+  nav a {
     /* color:#0e3e61; */
     color: #ffffff;
   }
-  header > span::after {
+  nav > span::after {
     /* content:"";
             display:block;
             margin:0 auto;
@@ -150,7 +150,7 @@ header a > span {
             border-radius:10px;
             background:#063D61; */
   }
-  header a:hover > span::after {
+  nav a:hover > span::after {
     /* width:90%; */
     -webkit-transition: 0.3s;
     transition: 0.3s;
